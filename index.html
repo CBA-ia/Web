@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CBA.ia — Automatizaciones</title>
+  <meta name="description" content="CBA.ia: automatizaciones y agentes de IA para potenciar negocios con procesos más rápidos, consistentes y medibles." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div id="top"></div>
+
+  <div class="bg">
+    <div class="blob blob-a"></div>
+    <div class="blob blob-b"></div>
+    <div class="grain"></div>
+  </div>
+
+  <div class="scrollbar" aria-hidden="true">
+    <div class="scrollbar__bar" id="scrollbarBar"></div>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Ir al inicio">
+        <img class="brand__logo" src="logo_web_blanco.png" alt="CBA.ia" decoding="async" />
+      </a>
+
+      <nav class="nav">
+        <a href="#beneficios">Mantenimiento</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#consulta">Consulta</a>
+        <a href="#contacto" class="btn btn--ghost">Contacto</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile" id="mobileNav" aria-hidden="true">
+      <a href="#beneficios">Mantenimiento</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#consulta">Consulta</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <div class="pill">
+            <span class="dot"></span>
+            Automatizaciones + agentes IA
+          </div>
+
+          <h1>
+            CBA.ia
+            <span class="accent accent--gold">potenciando</span>
+            negocios con procesos inteligentes.
+          </h1>
+
+          <p class="lead">
+            Diseñamos e implementamos <strong>automatización</strong> para atención, administración y seguimiento.
+            Menos tareas repetidas, <strong>más control</strong> y <strong>más ventas</strong>.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#contacto">Hacer una consulta</a>
+            <a class="btn btn--soft" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+
+        <div class="hero__card reveal" data-tilt>
+          <div class="hero__logoWrap">
+            <img src="logo_web_blanco.png" alt="Logo CBA.ia" class="hero__mainLogo" decoding="async" />
+          </div>
+
+          <div class="mini">
+            <div class="mini__stats">
+              <div class="stat">
+                <div class="stat__num">-40%</div>
+                <div class="stat__lbl">tiempo operativo</div>
+              </div>
+
+              <div class="stat stat--up">
+                <div class="stat__num">↑</div>
+                <div class="stat__lbl">consultas</div>
+              </div>
+
+              <div class="stat">
+                <div class="stat__num">24/7</div>
+                <div class="stat__lbl">atención</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__shine" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS / MANTENIMIENTO -->
+    <section class="section" id="beneficios">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Beneficios del mantenimiento</h2>
+          <p>
+            La <strong>automatización puede implementarse gratis</strong> o con una inversión mínima.
+            Lo que se paga es el <strong>mantenimiento</strong> mensual: asegurar continuidad, evitar interrupciones y sostener resultados.
+          </p>
+        </div>
+
+        <div class="maint">
+          <div class="maint__intro reveal">
+            <p>
+              El <strong>mantenimiento</strong> genera <strong>alivio</strong> operativo: monitorea el funcionamiento, corrige desvíos y mantiene el sistema actualizado.
+              El objetivo es sostener <strong>más control</strong> y continuidad, para que la operación no dependa de estar pendiente todo el tiempo.
+            </p>
+          </div>
+
+          <div class="maint__grid">
+            <article class="maint-card reveal" data-tilt>
+              <h3>Monitoreo</h3>
+              <p>Seguimiento del funcionamiento y detección temprana de errores o bloqueos.</p>
+            </article>
+
+            <article class="maint-card reveal" data-tilt>
+              <h3>Correcciones</h3>
+              <p>Ajustes rápidos ante fallas, cambios de reglas o variaciones del flujo.</p>
+            </article>
+
+            <article class="maint-card reveal" data-tilt>
+              <h3>Actualizaciones y mejoras</h3>
+              <p>Actualizaciones por cambios externos y mejoras continuas para optimizar resultados.</p>
+            </article>
+
+            <article class="maint-card reveal" data-tilt>
+              <h3>Estabilidad</h3>
+              <p>Garantizar que la <strong>automatización</strong> se mantenga operativa en el tiempo.</p>
+            </article>
+          </div>
+
+          <div class="maint__note reveal">
+            <p>
+              <strong>No se paga por “tener” un sistema.</strong><br>
+              Se paga para que funcione todos los días: <strong>mantenimiento</strong>, continuidad y mejoras.
+              Resultado: <strong>alivio</strong>, <strong>más control</strong> y <strong>más ventas</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Servicios</h2>
+          <p>Automatizaciones pensadas para tu negocio, con foco en resultados y mantenimiento.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal" data-tilt>
+            <div class="card__icon">⚙️</div>
+            <h3>Automatización de procesos</h3>
+            <p>Formularios, planillas, recordatorios, reportes y tareas internas coordinadas de forma automática.</p>
+            <ul class="bullets">
+              <li>Google Sheets / Drive</li>
+              <li>Notificaciones y reportes</li>
+              <li>Integraciones livianas</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tilt>
+            <div class="card__icon">💬</div>
+            <h3>Atención y pre-calificación</h3>
+            <p>Guía al cliente y registra datos para ordenar consultas y derivar a una persona cuando corresponda.</p>
+            <ul class="bullets">
+              <li>Preguntas frecuentes</li>
+              <li>Derivación a una persona</li>
+              <li>Seguimiento estructurado</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tilt>
+            <div class="card__icon">📈</div>
+            <h3>Leads y seguimiento</h3>
+            <p>Captura, clasificación y seguimiento para convertir consultas en clientes con orden y métricas.</p>
+            <ul class="bullets">
+              <li>Embudo claro</li>
+              <li>Priorización</li>
+              <li>Resumen semanal</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="section section--alt" id="proceso">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Proceso de trabajo</h2>
+          <p>Para implementar con orden y sin interrumpir la operación.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="step reveal" data-tilt>
+            <div class="step__n">01</div>
+            <div class="step__c">
+              <h3>Diagnóstico</h3>
+              <p>Se identifican tareas repetidas, cuellos de botella y oportunidades de mejora priorizadas.</p>
+            </div>
+          </div>
+
+          <div class="step reveal" data-tilt>
+            <div class="step__n">02</div>
+            <div class="step__c">
+              <h3>Demostración (Demo)</h3>
+              <p>Se arma una demostración funcional del flujo para validar el caso real antes de escalar.</p>
+            </div>
+          </div>
+
+          <div class="step reveal" data-tilt>
+            <div class="step__n">03</div>
+            <div class="step__c">
+              <h3>Escalado</h3>
+              <p>Se incorporan mejoras, reportes e integraciones adicionales a medida que el flujo demuestra valor.</p>
+            </div>
+          </div>
+
+          <div class="step reveal" data-tilt>
+            <div class="step__n">04</div>
+            <div class="step__c">
+              <h3>Mantenimiento</h3>
+              <p>Monitoreo, ajustes y soporte para que la <strong>automatización</strong> opere de forma estable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSULTA (demo opcional) -->
+    <section class="section" id="consulta">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Consulta rápida</h2>
+          <p>Rotá una pregunta disparadora para ordenar el caso antes de enviar el formulario.</p>
+        </div>
+
+        <div class="brief">
+          <div class="brief__left reveal" data-tilt>
+            <h3>Rubro (opcional)</h3>
+            <p class="muted">El formulario incluye el rubro: esto es una guía rápida.</p>
+
+            <div class="chips" id="bizChips" role="group" aria-label="Rubro (opcional)">
+              <button class="chip is-active" data-biz="gimnasio" type="button">Gimnasio</button>
+              <button class="chip" data-biz="resto" type="button">Restaurante</button>
+              <button class="chip" data-biz="peluqueria" type="button">Peluquería</button>
+              <button class="chip" data-biz="ecommerce" type="button">E-commerce</button>
+              <button class="chip" data-biz="otro" type="button">Otro</button>
+            </div>
+
+            <div class="actions">
+              <button class="btn btn--primary" id="regenBtn" type="button">🔄 Cambiar pregunta</button>
+              <button class="btn btn--ghost" id="copyBtn" type="button">Copiar pregunta</button>
+            </div>
+
+            <div class="note" id="copyNote" aria-live="polite"></div>
+          </div>
+
+          <div class="brief__right reveal">
+            <div class="qhead">
+              <div>
+                <h3>Pregunta disparadora</h3>
+                <p class="muted" id="qSubtitle">Para <b>Gimnasio</b></p>
+              </div>
+            </div>
+
+            <div class="qsingle" id="qSingle" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section--alt" id="contacto">
+      <div class="container">
+        <div class="contact reveal" data-tilt="soft">
+          <div class="contact__copy">
+            <h2>Contacto</h2>
+            <p>
+              Completá estos datos y elegí cómo enviar el mensaje. Se abrirá WhatsApp o el mail con el texto ya cargado.
+            </p>
+            <div class="contact__badges">
+              <span class="tag tag--big">Mantenimiento mensual</span>
+              <span class="tag tag--big">Implementación gradual</span>
+              <span class="tag tag--big">Córdoba, Argentina</span>
+            </div>
+          </div>
+
+          <form class="form" id="contactForm" novalidate>
+            <label>
+              <span>Nombre</span>
+              <input name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" required />
+            </label>
+
+            <label>
+              <span>Rubro</span>
+              <input name="rubro" type="text" placeholder="Ej: gimnasio, inmobiliaria, peluquería…" required />
+            </label>
+
+            <div class="field no-anim">
+              <span class="field__label">Cantidad aproximada de consultas</span>
+              <div class="seg" role="radiogroup" aria-label="Cantidad de consultas">
+                <label class="seg__opt">
+                  <input type="radio" name="volumen" value="1–5 por día" required>
+                  <span>1–5 / día</span>
+                </label>
+                <label class="seg__opt">
+                  <input type="radio" name="volumen" value="6–15 por día" required>
+                  <span>6–15 / día</span>
+                </label>
+                <label class="seg__opt">
+                  <input type="radio" name="volumen" value="16–30 por día" required>
+                  <span>16–30 / día</span>
+                </label>
+                <label class="seg__opt">
+                  <input type="radio" name="volumen" value="Más de 30 por día" required>
+                  <span>30+ / día</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <span class="field__label">Objetivo principal</span>
+              <div class="checkRow" role="group" aria-label="Objetivo principal">
+                <label class="check">
+                  <input type="checkbox" name="obj_aumentar" value="Aumentar la cantidad de consultas">
+                  <span>Aumentar consultas</span>
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="obj_mejorar" value="Mejorar la efectividad de las consultas (convertir mejor)">
+                  <span>Mejorar efectividad</span>
+                </label>
+              </div>
+              <p class="muted small" style="margin:6px 0 0;">
+                Se puede elegir una opción o ambas.
+              </p>
+            </div>
+
+            <label>
+              <span>¿Qué querés automatizar primero?</span>
+              <textarea name="objetivo" rows="4" placeholder="Ej: respuestas iniciales, turnos, seguimiento, reportes…" required></textarea>
+            </label>
+
+            <div class="sendBox">
+              <div class="sendBox__head">
+                <h3>Enviar consulta</h3>
+                <p class="muted small">Se abrirá WhatsApp o el mail con el mensaje listo. Solo queda enviarlo.</p>
+              </div>
+
+              <div class="sendBox__btns">
+                <button class="btn btn--primary" id="sendWABtn" type="button">Enviar por WhatsApp</button>
+                <button class="btn btn--ghost" id="sendMailBtn" type="button">Enviar por mail</button>
+                <button class="btn btn--soft" id="copyMsgBtn" type="button">Copiar mensaje</button>
+              </div>
+
+              <p class="muted small mailHint">
+                Si el mail no se abre automáticamente, revisá la app de correo o la configuración del dispositivo.
+              </p>
+
+              <div class="note" id="msgNote" aria-live="polite"></div>
+            </div>
+
+            <textarea id="hiddenMsg" class="visuallyHidden" aria-hidden="true" tabindex="-1"></textarea>
+          </form>
+        </div>
+
+        <footer class="footer">
+          <div class="container footer__inner">
+            <span class="muted">© <span id="year"></span> CBA.ia</span>
+            <a class="muted" href="#top">Volver arriba ↑</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
